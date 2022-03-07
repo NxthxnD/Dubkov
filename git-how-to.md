@@ -24,18 +24,6 @@ Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): <file-name>
 > Enter same passphrase again: [Press enter]
 ```
 
-## Настройка приватного ключа
-
-1. Вызвать `ssh-agent`:
-```
-eval "$(ssh-agent -s)"
-> Agent pid 12512
-```
-
-2. Добавить приватный ключ:
-```
-ssh-add ~/.ssh/<file-name>
-```
 
 ## Настройка публичного ключа:
 
